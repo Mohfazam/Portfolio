@@ -1,0 +1,40 @@
+AIM: To write an embedded C program for addition, subtraction, multiplication, and division using the Keil simulator.
+SOFTWARE REQUIRED:
+
+S.No Software Requirements
+Quantity
+1
+Keil uvisions IDE
+
+1. Create a new project, go to "Project" and close the current project "Close Project".
+2. Next Go to the Project New uvision Project and Create New Project Select Device for Target.
+3. Select the device AT89C51ED2 or AT89C51 or AT89C52
+4. Add Startup file Next go to "File" and click "New".
+5. Write a program on the editor window and save it with the .asm extension.
+6. Add this source file to Group and click on "Build Target" or F7.
+7. Go to debugging mode to see the result of the simulation by clicking Run or Step run.
+PROGRAM:
+
+
+# include < reg51.h>
+MDY 45h, b
+MoV 44h, a
+div a, b.
+MOV b, #05h
+MOV a ,#25h
+
+
+Mov 42h,a MOy 43h,b
+
+mul a, b
+MOV b, #12h
+MOV ca, #25h
+MOV 4lh, a
+sub a, b
+MOV b, #12h
+MON a #25h
+
+Moy 40h,a
+add ab
+MOY b, #12h
+MOy a. #25h
